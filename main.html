@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <title>Main Page</title>
+  <link rel="stylesheet" href="main.css">
+<head>
+<header>  
+    <button class="button" onclick="toggleHeader()">listes des étudiants</button>
+  <div class="header" id="header">
+    <h1>Projet de :</h1>
+    
+<li> Matricule: MATRICULE1, Nom: NOM1 , Prenom: PRENOM1, Specialite: INFO-LMD-, Section: 06, Partie: 01  
+<li> Matricule: MATRICULE2, Nom: NOM2 , Prenom: PRENOM2, Specialite: INFO-LMD-, Section: 06, Partie: 01 
+<li> Matricule: 222231556815, Nom: ABBAS , Prenom: SAMY, Specialite: INFO-LMD-, Section: 06, Partie: 02
+<li> Matricule: 222231555307, Nom: AIT YOUNES , Prenom: ABDELMALEK, Specialite: INFO-LMD-, Section: 06, Partie: 02 
+<li> Matricule: 222231327201, Nom: SEDDAD , Prenom: ISLAM, Specialite: INFO-LMD-, Section: 06, Partie: 03  
+<li> Matricule: 222231355519, Nom: KESSACI , Prenom: RAMY, Specialite: INFO-LMD-, Section: 06, Partie: 03 
+<li> Matricule: 222231377017, Nom: DAHRI , Prenom: MERIEM BOUCHRA, Specialite: INFO-LMD-, Section: 06, Partie: 04
+<li> Matricule: 222231369518, Nom: HAKEM , Prenom: FATIMA ZOHRA, Specialite: INFO-LMD-, Section: 06, Partie: 04 
+<li> Matricule: MATRICULE9, Nom: NOM9 , Prenom: PRENOM9, Specialite: INFO-LMD- Section: 06, Partie: 05  
+<li> Matricule: MATRICULE1, Nom: NOM1 , Prenom: PRENOM1, Specialite: INFO-LMD-, Section: 06, Partie: 05 
+  </div>
+
+  <script>
+    function toggleHeader() {
+      var header = document.getElementById("header");
+      if (header.style.display === "none") {
+        header.style.display = "block";
+      } else {
+        header.style.display = "none";
+      }
+    }
+  </script> 
+</header>
+</head>
+<body>
+  <div class="container">
+    <a href="chap1.html" class="box box1">
+      <div class="box-text">Chapitre 1</div>
+    </a>
+    <a href="chap2.html" class="box box2">
+      <div class="box-text">Chapitre 2</div>
+    </a>
+    <a href="chap3.html" class="box box3">
+      <div class="box-text">Chapitre 3</div>
+    </a>
+    <a href="page4.html" class="box box4">
+      <div class="box-text">Chapitre 4</div>
+    </a>
+    <a href="page5.html" class="box box5">
+      <div class="box-text">Chapitre 5</div>
+    </a>
+  </div>
+</body>
+</html>
